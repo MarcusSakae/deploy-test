@@ -10,8 +10,8 @@ jobs:
       # uses: cross-the-world/ssh-scp-ssh-pipelines@78e864b4890087a58248ff39320406971ca88b89
       uses: cross-the-world/ssh-scp-ssh-pipelines@v1.1.4
       with:
-        host: ${ secrets.IP  }
-        user: ${ secrets.USER }
-        key: ${ secrets.KEY }
+        host: ${{ secrets.IP  }}
+        user: ${{ secrets.USER }}
+        key: ${{ secrets.KEY }}
         first_ssh: |
           | echo  "hello"
