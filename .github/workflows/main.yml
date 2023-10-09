@@ -12,4 +12,4 @@ jobs:
         user: ${{ secrets.USER }}
         key: ${{ secrets.KEY }}
         first_ssh: |
-          echo  "hello"
+          ./update.sh
